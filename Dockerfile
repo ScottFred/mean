@@ -26,4 +26,6 @@ ENV NODE_ENV development
 # Port 3000 for server
 # Port 35729 for livereload
 EXPOSE 3000 35729
-CMD ["grunt"]
+
+# -- CMD ["grunt"]
+CMD /bin/sh /home/mean/wait_mongo_start.sh
