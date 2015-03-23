@@ -1,6 +1,6 @@
 #!/bin/sh
 
-polling_interval=30
+polling_interval=3
 
 #optional, view db_1 container-related env vars
 #env | grep DB_1 | sort
